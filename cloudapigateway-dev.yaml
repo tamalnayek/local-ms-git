@@ -1,8 +1,0 @@
-spring:
-  cloud:
-    gateway:
-      routes:
-      - id: productms
-        uri: lb://productms
-        predicates:
-        - Path=/product/v5/**
